@@ -1,0 +1,209 @@
+/* styles.css - Emo/Dark Aesthetic for The Big Three Site */
+
+/* Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Body */
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    line-height: 1.6;
+    min-height: 100vh;
+    margin: 0;
+    padding: 0;
+  
+    /* Background with texture */
+    background: 
+      linear-gradient(135deg, #0a0a0a, #1c1c1c),
+      url("img/texture.jpg");   /* <-- make sure this file exists */
+    background-size: cover;      /* stretches */
+    background-repeat: repeat;   /* repeats if small */
+    background-attachment: fixed; /* stays fixed when scrolling */
+  
+    /* Text color */
+    color: #e0e0e0;
+  }
+  
+/* Header */
+header {
+  background: #111;
+  padding: 1rem;
+  text-align: center;
+  border-bottom: 2px solid #444;
+  box-shadow: 0 0 10px rgba(255, 0, 80, 0.6);
+}
+
+header h1 {
+  font-size: 2rem;
+  color: #ff0050;
+  text-shadow: 0 0 6px #ff0050;
+}
+
+/* Navigation */
+nav {
+  margin-top: 0.5rem;
+}
+
+nav a {
+  color: #e0e0e0;
+  text-decoration: none;
+  margin: 0 0.8rem;
+  font-weight: bold;
+  transition: color 0.3s ease, text-shadow 0.3s ease;
+}
+
+nav a:hover {
+  color: #ff0050;
+  text-shadow: 0 0 5px #ff0050;
+}
+
+/* Main Content */
+main {
+  padding: 2rem;
+  max-width: 900px;
+  margin: auto;
+}
+main h1, main h2 {
+  font-family: 'Courier New', Courier, monospace;
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+main h1 {
+  margin-bottom: 1rem;
+  font-size: 2.5rem;
+  color: #ff0050;
+  text-shadow: 0 0 6px #ff0050;
+}
+main h2 {
+  margin-bottom: 0.6rem;
+  font-size: 1.6rem;
+  color: #ff0050;
+  text-shadow: 0 0 6px #ff0050;
+}
+
+main p {
+  margin-bottom: 1.2rem;
+  font-size: 1rem;
+}
+
+/* Section */
+section {
+  margin-bottom: 2rem;
+  padding: 1rem;
+  border-left: 3px solid #ff0050;
+  background: rgba(255, 255, 255, 0.03);
+  transition: transform 0.2s ease;
+}
+section img {
+    max-width: 600px;  /* or 80% */
+    height: auto;
+    display: block;
+    margin: 1rem auto;
+    border: 2px solid #ff0050;
+    border-radius: 8px;
+    box-shadow: 0 0 12px rgba(255, 0, 80, 0.6);
+  }
+  
+section:hover {
+  transform: translateX(5px);
+}
+
+/* Spoiler Warning */
+main h2:first-of-type {
+  color: #ffcc00;
+  text-shadow: 0 0 6px #1b1707;
+}
+
+/* Footer */
+footer {
+  background: #111;
+  text-align: center;
+  padding: 1rem;
+  margin-top: 2rem;
+  border-top: 2px solid #444;
+  color: #aaa;
+  font-size: 0.9rem;
+}
+/* === Fan Feedback Form Styling === */
+.fan-form {
+    margin: 2rem 0;
+    padding: 1.5rem;
+    background: rgba(255, 255, 255, 0.03);
+    border-left: 3px solid #ff0050;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(255, 0, 80, 0.4);
+  }
+  
+  .fan-form h2 {
+    color: #ff0050;
+    margin-bottom: 1rem;
+    text-shadow: 0 0 5px #ff0050;
+  }
+  
+  .fan-form p {
+    margin-bottom: 1rem;
+    color: #ccc;
+  }
+  
+  .fan-form label {
+    display: block;
+    margin: 0.6rem 0 0.3rem;
+    font-weight: bold;
+    color: #fff;
+  }
+  
+  .fan-form input,
+  .fan-form select,
+  .fan-form textarea {
+    width: 100%;
+    padding: 0.6rem;
+    margin-bottom: 1rem;
+    border: 1px solid #444;
+    border-radius: 5px;
+    background: #111;
+    color: #e0e0e0;
+    transition: border 0.3s ease, box-shadow 0.3s ease;
+  }
+  
+  .fan-form input:focus,
+  .fan-form select:focus,
+  .fan-form textarea:focus {
+    border-color: #ff0050;
+    outline: none;
+    box-shadow: 0 0 6px #ff0050;
+  }
+  
+  .fan-form button {
+    background: #ff0050;
+    color: #fff;
+    padding: 0.8rem 1.2rem;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    font-weight: bold;
+    transition: 0.3s ease;
+  }
+  
+  .fan-form button:hover {
+    background: #e00045;
+    box-shadow: 0 0 10px #ff0050;
+  }
+  
+  .fan-form .success-message {
+    margin-top: 1rem;
+    color: #00ff99;
+    font-weight: bold;
+    display: none; /* hidden by default */
+  }
+    .fan-form .error-message {
+        margin-top: 1rem;
+        color: #ff3333;
+        font-weight: bold;
+        display: none; /* hidden by default */
+    }
