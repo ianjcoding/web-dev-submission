@@ -60,6 +60,8 @@ You can also serve it using a live server (e.g., VS Code Live Server extension).
 
 📸 Preview
 
+live url = https://68dabac6d37ba033298bbb5b--funny-concha-a50ed0.netlify.app/
+
 Homepage introduction to the Big Three
 <img width="1920" height="1080" alt="Screenshot (294)" src="https://github.com/user-attachments/assets/b5ad5c6d-8fc4-41a0-b9d0-0cdc85f426c9" />
 
