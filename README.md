@@ -61,13 +61,16 @@ You can also serve it using a live server (e.g., VS Code Live Server extension).
 📸 Preview
 
 Homepage introduction to the Big Three
-<img width="1920" height="1080" alt="Screenshot 2025-09-29 173045" src="https://github.com/user-attachments/assets/48eca24d-3c66-4d4e-8604-6ab3c4c57779" />
+<img width="1920" height="1080" alt="Screenshot (294)" src="https://github.com/user-attachments/assets/b5ad5c6d-8fc4-41a0-b9d0-0cdc85f426c9" />
+
 
 Character detail pages with spoiler toggle
-<img width="1920" height="1080" alt="Screenshot 2025-09-29 180858" src="https://github.com/user-attachments/assets/9a5193f3-e749-4e92-a7b9-0601320bceaa" />
+<img width="1920" height="1080" alt="Screenshot (295)" src="https://github.com/user-attachments/assets/7fbc525a-c86e-4422-8e24-8a43340ce107" />
+
 
 Power system breakdowns
-<img width="1920" height="1080" alt="Screenshot 2025-09-29 182300" src="https://github.com/user-attachments/assets/dd461dfa-378c-445e-9d64-e7fb755ed6df" />
+<img width="1920" height="1080" alt="Screenshot (296)" src="https://github.com/user-attachments/assets/a8f01467-20ca-4e51-8604-e8721af35df6" />
+
 
 
 
